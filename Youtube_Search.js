@@ -305,7 +305,7 @@ registerPlugin({
                     // {videId}
                     youtube: /(?:http|https):\/\/www\.(?:youtube\.com|youtu\.be)\/watch\?v=([\w-]+)/
                 },
-                command_trigger: config.command_trigger || 'youtube',
+                command_trigger: config.command_trigger || 'ara',
                 catch_url: config.yt_catchurl,
                 randomplay: config.yt_randomplay,
                 yt_maxduration: config.yt_maxduration || 900,
