@@ -62,8 +62,8 @@ registerPlugin({
             placeholder: 'ara'
         },
         {
-            name: 'Arama Mesaji.',
-            title: 'Message Format (supports bbcode)',
+            name: 'command_message',
+            title: 'Otomatik Mesaj (BB Code Destekli)',
             type: 'multiline',
             placeholder: '[B][COLOR=#ff0000]HGM[/COLOR]Network - İsim: {title} - Link: [url={yt_link}]{yt_link}[/url] - Kanal By: {upload_by}'
         },
