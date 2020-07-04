@@ -539,7 +539,7 @@ registerPlugin({
                     };
 
                     var error_callback = function (error) {
-                        msg("Search failed (Bad request)");
+                        msg("[B][COLOR=#ff0000]HGM[/COLOR]Network - [COLOR=#ff0000]HATA[/COLOR]: Mevcut Api-Anahtariniz Kullanilamamaktadir, Lutfen Degistirin.");
                         engine.log(error);
                     };
 
@@ -551,7 +551,7 @@ registerPlugin({
                             search.items = search.items || [];
 
                             if (search.items.length <= 0) {
-                                msg("Search failed (Nothing found)");
+                                msg("[B][COLOR=#ff0000]HGM[/COLOR]Network - [COLOR=#ff0000]HATA[/COLOR]: Arama Sonucuyla Alakali Hicbir Video Bulunamadi.");
                             } else {
                                 var playback = false;
                                 var items = search.items;
@@ -638,7 +638,7 @@ registerPlugin({
                             });
                         },
                         error_callback: function (err) {
-                            msg("Search failed (Bad request)");
+                            msg("[B][COLOR=#ff0000]HGM[/COLOR]Network - [COLOR=#ff0000]HATA[/COLOR]: Mevcut Api-Anahtariniz Kullanilamamaktadir, Lutfen Degistirin.");
                         }
                     });
                 }
@@ -699,7 +699,7 @@ registerPlugin({
                             });
                         },
                         error_callback: function (err) {
-                            msg("Search failed (Bad request)");
+                            msg("[B][COLOR=#ff0000]HGM[/COLOR]Network - [COLOR=#ff0000]HATA[/COLOR]: Mevcut Api-Anahtariniz Kullanilamamaktadir, Lutfen Degistirin.");
                         }
                     });
                 }
@@ -940,7 +940,7 @@ registerPlugin({
                         engine.log(data.video);
                     }
                 } else {
-                    msg("Search failed (Nothing found)");
+                    msg("[B][COLOR=#ff0000]HGM[/COLOR]Network - [COLOR=#ff0000]HATA[/COLOR]: Arama Sonucuyla Alakali Hicbir Video Bulunamadi.");
                 }
             },
             video_playback: function (data) {
