@@ -20,7 +20,7 @@ registerPlugin({
             options: [
                 'Hicbirsey',
                 'Indirsin',
-                'Indırmeden Yayinlasin'
+                'Indirmeden Yayinlasin'
             ]
         },
         {
@@ -65,7 +65,7 @@ registerPlugin({
             name: 'command_message',
             title: 'Otomatik Mesaj (BB Code Destekli)',
             type: 'multiline',
-            placeholder: '[B][COLOR=#ff0000]HGM[/COLOR]Network - İsim: {title} - Link: [url={yt_link}]{yt_link}[/url] - Kanal By: {upload_by}'
+            placeholder: '[B][COLOR=#ff0000]HGM[/COLOR]Network - Isim: {title} - Link: [url={yt_link}]{yt_link}[/url] - Kanal By: {upload_by}'
         },
         {
             name: 'yt_titleblacklist',
@@ -310,7 +310,7 @@ registerPlugin({
                 randomplay: config.yt_randomplay,
                 yt_maxduration: config.yt_maxduration || 900,
                 yt_titleblacklist: (typeof config.yt_titleblacklist !== 'undefined' && config.yt_titleblacklist.length > 0 ? config.yt_titleblacklist.split(',') : []),
-                command_message: config.command_message || '[B][COLOR=#ff0000]HGM[/COLOR]Network - İsim: {title} - Link: [url={yt_link}]{yt_link}[/url] - Kanal By: {upload_by}',
+                command_message: config.command_message || '[B][COLOR=#ff0000]HGM[/COLOR]Network - Isim: {title} - Link: [url={yt_link}]{yt_link}[/url] - Kanal By: {upload_by}',
                 ytdl_action: parseInt(config.ytdl_action) || 0,
                 ytdl_playback: parseInt(config.ytdl_playback) || 0,
                 server_groups: config.command_permissionsServerGroups || [],
